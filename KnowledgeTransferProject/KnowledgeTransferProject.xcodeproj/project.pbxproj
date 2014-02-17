@@ -1,0 +1,1395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D039A2E18AF95CB00126279 /* UITransitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D039A2D18AF95CB00126279 /* UITransitionsViewController.m */; };
+		1D039A3E18AF9EA700126279 /* FromRightToLeftTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D039A3D18AF9EA700126279 /* FromRightToLeftTransitioningDelegate.m */; };
+		1D039A4618AF9F0700126279 /* UITransitionsGuestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D039A4118AF9F0700126279 /* UITransitionsGuestViewController.m */; };
+		1D039A4718AF9F0700126279 /* UITransitionsGuestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D039A4218AF9F0700126279 /* UITransitionsGuestViewController.xib */; };
+		1D039A4818AF9F0700126279 /* UITransitionsHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D039A4418AF9F0700126279 /* UITransitionsHostViewController.m */; };
+		1D039A4918AF9F0700126279 /* UITransitionsHostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D039A4518AF9F0700126279 /* UITransitionsHostViewController.xib */; };
+		1D039A4C18AFA04A00126279 /* FromRightToLeftAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D039A4B18AFA04A00126279 /* FromRightToLeftAnimatedTransitioning.m */; };
+		1D3344BF183A2D3C00997E21 /* UICollectionViewCustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3344BD183A2D3B00997E21 /* UICollectionViewCustomLayoutViewController.m */; };
+		1D3344C0183A2D3C00997E21 /* UICollectionViewCustomLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3344BE183A2D3B00997E21 /* UICollectionViewCustomLayoutViewController.xib */; };
+		1D3344C3183A2DCD00997E21 /* UICollectionViewCustomLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3344C2183A2DCD00997E21 /* UICollectionViewCustomLayoutView.m */; };
+		1D3344C7183A2FDB00997E21 /* UICollectionViewCustomLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3344C6183A2FDB00997E21 /* UICollectionViewCustomLayoutCell.m */; };
+		1D3344C9183A303B00997E21 /* UICollectionViewCustomLayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3344C8183A303B00997E21 /* UICollectionViewCustomLayoutCell.xib */; };
+		1D3344CC183A329000997E21 /* UICollectionViewCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3344CB183A329000997E21 /* UICollectionViewCustomLayout.m */; };
+		1D3344D1183A36D600997E21 /* UICollectionViewCircleLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3344CF183A36D600997E21 /* UICollectionViewCircleLayoutViewController.m */; };
+		1D3344D2183A36D600997E21 /* UICollectionViewCircleLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3344D0183A36D600997E21 /* UICollectionViewCircleLayoutViewController.xib */; };
+		1D3344D5183A36F900997E21 /* UICollectionViewCircleLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3344D4183A36F900997E21 /* UICollectionViewCircleLayoutView.m */; };
+		1D3344E5183A614600997E21 /* UICollectionViewCircleLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3344E0183A614600997E21 /* UICollectionViewCircleLayoutCell.m */; };
+		1D3344E6183A614600997E21 /* UICollectionViewCircleLayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3344E1183A614600997E21 /* UICollectionViewCircleLayoutCell.xib */; };
+		1D3344E7183A614600997E21 /* UICollectionViewCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3344E4183A614600997E21 /* UICollectionViewCircleLayout.m */; };
+		1D46116118AF56C2007C19B9 /* UIIOS7NavigationBarPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D46116018AF56C2007C19B9 /* UIIOS7NavigationBarPresentationViewController.m */; };
+		1D46116518AF5782007C19B9 /* UIIOS7NavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D46116318AF5782007C19B9 /* UIIOS7NavigationBarViewController.m */; };
+		1D46116618AF5782007C19B9 /* UIIOS7NavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D46116418AF5782007C19B9 /* UIIOS7NavigationBarViewController.xib */; };
+		1D63729C1725748200BD3B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63729B1725748200BD3B9E /* UIKit.framework */; };
+		1D63729E1725748200BD3B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63729D1725748200BD3B9E /* Foundation.framework */; };
+		1D6372A01725748200BD3B9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63729F1725748200BD3B9E /* CoreGraphics.framework */; };
+		1D6372A61725748200BD3B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6372A41725748200BD3B9E /* InfoPlist.strings */; };
+		1D6372A81725748200BD3B9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6372A71725748200BD3B9E /* main.m */; };
+		1D6372AC1725748200BD3B9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6372AB1725748200BD3B9E /* AppDelegate.m */; };
+		1D6372AE1725748200BD3B9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6372AD1725748200BD3B9E /* Default.png */; };
+		1D6372B01725748200BD3B9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6372AF1725748200BD3B9E /* Default@2x.png */; };
+		1D6372B21725748200BD3B9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6372B11725748200BD3B9E /* Default-568h@2x.png */; };
+		1D6372C01725748200BD3B9E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6372BF1725748200BD3B9E /* SenTestingKit.framework */; };
+		1D6372C11725748200BD3B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63729B1725748200BD3B9E /* UIKit.framework */; };
+		1D6372C21725748200BD3B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D63729D1725748200BD3B9E /* Foundation.framework */; };
+		1D6372CA1725748200BD3B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6372C81725748200BD3B9E /* InfoPlist.strings */; };
+		1D6372CD1725748300BD3B9E /* KnowledgeTransferProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6372CC1725748200BD3B9E /* KnowledgeTransferProjectTests.m */; };
+		1D6372EB17257D7C00BD3B9E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6372E817257D7C00BD3B9E /* MainViewController.m */; };
+		1D6372FD172590D700BD3B9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6372FC172590D700BD3B9E /* QuartzCore.framework */; };
+		1D6373061725922300BD3B9E /* SampleQuartzCoreDrawRectanglesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373021725922300BD3B9E /* SampleQuartzCoreDrawRectanglesView.m */; };
+		1D6373071725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373041725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.m */; };
+		1D6373081725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6373051725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.xib */; };
+		1D63730D1725984B00BD3B9E /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63730B1725984B00BD3B9E /* MainTableViewCell.m */; };
+		1D63730E1725984B00BD3B9E /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D63730C1725984B00BD3B9E /* MainTableViewCell.xib */; };
+		1D637313172598A100BD3B9E /* SampleDataset.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D637312172598A100BD3B9E /* SampleDataset.m */; };
+		1D637316172598D000BD3B9E /* Sample 2. DrawBitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D637315172598D000BD3B9E /* Sample 2. DrawBitmap.png */; };
+		1D63731B17259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63731917259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.m */; };
+		1D63731C17259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D63731A17259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.xib */; };
+		1D63731F17259ACC00BD3B9E /* SampleQuartzCoreDrawBitmapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63731E17259ACC00BD3B9E /* SampleQuartzCoreDrawBitmapView.m */; };
+		1D6373251725A51D00BD3B9E /* QuartzSampleDatasourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373241725A51C00BD3B9E /* QuartzSampleDatasourceViewController.m */; };
+		1D63732E1725AABC00BD3B9E /* SampleDatasourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373281725AABC00BD3B9E /* SampleDatasourceView.m */; };
+		1D63732F1725AABC00BD3B9E /* SampleDatasourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63732A1725AABC00BD3B9E /* SampleDatasourceViewController.m */; };
+		1D6373301725AABC00BD3B9E /* SampleDatasourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D63732B1725AABC00BD3B9E /* SampleDatasourceViewController.xib */; };
+		1D6373351725AD2200BD3B9E /* UIKitSampleDatasourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373341725AD2200BD3B9E /* UIKitSampleDatasourceViewController.m */; };
+		1D63734F1726764500BD3B9E /* SampleQuartzCoreDrawPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63734B1726764500BD3B9E /* SampleQuartzCoreDrawPathView.m */; };
+		1D6373501726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63734D1726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.m */; };
+		1D6373511726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D63734E1726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.xib */; };
+		1D6373551726769F00BD3B9E /* QuartzSample3PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373541726769F00BD3B9E /* QuartzSample3PathViewController.m */; };
+		1D637359172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D637357172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.m */; };
+		1D63735A172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D637358172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.xib */; };
+		1D63735D172678C900BD3B9E /* SampleQuartzCoreFillPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63735C172678C900BD3B9E /* SampleQuartzCoreFillPathView.m */; };
+		1D63736117267EE200BD3B9E /* SamplesStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63736017267EE200BD3B9E /* SamplesStore.m */; };
+		1D6373741726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373701726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageView.m */; };
+		1D6373751726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373721726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.m */; };
+		1D6373761726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6373731726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.xib */; };
+		1D6373791726AFBE00BD3B9E /* QuartzSample4TransformationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373781726AFBE00BD3B9E /* QuartzSample4TransformationsViewController.m */; };
+		1D6373821726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373801726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.m */; };
+		1D6373831726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6373811726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.xib */; };
+		1D6373861726DF4200BD3B9E /* QuartzSample4TransformationsTranslationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373851726DF4100BD3B9E /* QuartzSample4TransformationsTranslationsView.m */; };
+		1D63738B1726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373891726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.m */; };
+		1D63738C1726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D63738A1726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.xib */; };
+		1D63738F1726E60D00BD3B9E /* QuartzSample4TransformationsScalingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63738E1726E60D00BD3B9E /* QuartzSample4TransformationsScalingView.m */; };
+		1D6373941726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373921726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.m */; };
+		1D6373951726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6373931726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.xib */; };
+		1D6373981726E9C000BD3B9E /* QuartzSample4TransformationsRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6373971726E9C000BD3B9E /* QuartzSample4TransformationsRotationView.m */; };
+		1D7D013A172968FA006B6641 /* QuartzSampleSpritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D0139172968FA006B6641 /* QuartzSampleSpritesViewController.m */; };
+		1D7D013E1729699E006B6641 /* QuartzSampleSpritesDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D013C1729699E006B6641 /* QuartzSampleSpritesDrawViewController.m */; };
+		1D7D013F1729699E006B6641 /* QuartzSampleSpritesDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D7D013D1729699E006B6641 /* QuartzSampleSpritesDrawViewController.xib */; };
+		1D7D0142172969B7006B6641 /* QuartzSampleSpritesDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D0141172969B7006B6641 /* QuartzSampleSpritesDrawView.m */; };
+		1D7D014617296A72006B6641 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D014517296A72006B6641 /* Sprite.m */; };
+		1D7D014D17297B47006B6641 /* TriangleSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D014C17297B47006B6641 /* TriangleSprite.m */; };
+		1D7D015017297B5A006B6641 /* VectorSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D014F17297B5A006B6641 /* VectorSprite.m */; };
+		1DACEF191728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACEF171728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.m */; };
+		1DACEF1A1728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DACEF181728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.xib */; };
+		1DACEF1D1728434E00AA6A6E /* SampleQuartzCoreDrawCoordinatesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACEF1C1728434E00AA6A6E /* SampleQuartzCoreDrawCoordinatesView.m */; };
+		1DACEF231728485300AA6A6E /* QuartzSampleRestoreGraphicsState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACEF221728485300AA6A6E /* QuartzSampleRestoreGraphicsState.m */; };
+		1DACEF28172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACEF26172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.m */; };
+		1DACEF29172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DACEF27172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.xib */; };
+		1DACEF2C172849D400AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACEF2B172849D400AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleView.m */; };
+		1DACEF2E17284AD400AA6A6E /* DrawingSnippets.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACEF2D17284AD400AA6A6E /* DrawingSnippets.m */; };
+		1DACEF3617284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACEF3417284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.m */; };
+		1DACEF3717284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DACEF3517284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.xib */; };
+		1DACEF3A17284F5F00AA6A6E /* QuartzSample4TransformationsLoopRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACEF3917284F5F00AA6A6E /* QuartzSample4TransformationsLoopRotationView.m */; };
+		1DBB2464172C3928009690D6 /* SpriteDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB245D172C3927009690D6 /* SpriteDrawer.m */; };
+		1DBB2466172C3928009690D6 /* NSValue+Sprites.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB2462172C3928009690D6 /* NSValue+Sprites.m */; };
+		1DBB246C172C39E1009690D6 /* Space.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB2469172C39E1009690D6 /* Space.m */; };
+		1DBB2470172C3A19009690D6 /* SpaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB246F172C3A19009690D6 /* SpaceObject.m */; };
+		1DBB2474172C3C69009690D6 /* SpriteLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB2473172C3C69009690D6 /* SpriteLocation.m */; };
+		1DBB2477172C3D14009690D6 /* SpriteSubstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB2476172C3D14009690D6 /* SpriteSubstance.m */; };
+		1DBB247F172C4A8A009690D6 /* SpaceObjectMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB247E172C4A8A009690D6 /* SpaceObjectMediator.m */; };
+		1DD383071746094A00B17389 /* DesignPatternDataproviderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD383061746094A00B17389 /* DesignPatternDataproviderViewController.m */; };
+		1DD383101746324400B17389 /* DesignPatternsSampleDatasourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD3830F1746324400B17389 /* DesignPatternsSampleDatasourceViewController.m */; };
+		1DD3831517465CB200B17389 /* DesignPatternsSampleDatasourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD3830F1746324400B17389 /* DesignPatternsSampleDatasourceViewController.m */; };
+		1DDE88F61738F6B400F9BA87 /* DesignPatternComposerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE88F41738F6B400F9BA87 /* DesignPatternComposerViewController.m */; };
+		1DDE88F71738F6B400F9BA87 /* DesignPatternComposerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE88F51738F6B400F9BA87 /* DesignPatternComposerViewController.xib */; };
+		1DDE88FA1738F6C400F9BA87 /* DesignPatternComposerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE88F91738F6C400F9BA87 /* DesignPatternComposerView.m */; };
+		1DDE89011738FEDA00F9BA87 /* DesignPatternComposerComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE89001738FEDA00F9BA87 /* DesignPatternComposerComposition.m */; };
+		1DDE89051739028400F9BA87 /* DesignPatternComposerCompositionFigureL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE89041739028400F9BA87 /* DesignPatternComposerCompositionFigureL.m */; };
+		1DDE8953173A47F800F9BA87 /* DesignPatternComposerLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE8950173A47F800F9BA87 /* DesignPatternComposerLeaf.m */; };
+		1DDE8954173A47F800F9BA87 /* DesignPatternComposerLeafSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE8952173A47F800F9BA87 /* DesignPatternComposerLeafSquare.m */; };
+		1DDE8957173A492C00F9BA87 /* appcode_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE8956173A492C00F9BA87 /* appcode_icon.png */; };
+		1DDE895A173A494E00F9BA87 /* DesignPatternComposerLeafImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE8959173A494E00F9BA87 /* DesignPatternComposerLeafImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D6372C31725748200BD3B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6372901725748200BD3B9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6372971725748200BD3B9E;
+			remoteInfo = KnowledgeTransferProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D039A2C18AF95CB00126279 /* UITransitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITransitionsViewController.h; sourceTree = "<group>"; };
+		1D039A2D18AF95CB00126279 /* UITransitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITransitionsViewController.m; sourceTree = "<group>"; };
+		1D039A3C18AF9EA700126279 /* FromRightToLeftTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromRightToLeftTransitioningDelegate.h; sourceTree = "<group>"; };
+		1D039A3D18AF9EA700126279 /* FromRightToLeftTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromRightToLeftTransitioningDelegate.m; sourceTree = "<group>"; };
+		1D039A4018AF9F0700126279 /* UITransitionsGuestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITransitionsGuestViewController.h; sourceTree = "<group>"; };
+		1D039A4118AF9F0700126279 /* UITransitionsGuestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITransitionsGuestViewController.m; sourceTree = "<group>"; };
+		1D039A4218AF9F0700126279 /* UITransitionsGuestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITransitionsGuestViewController.xib; sourceTree = "<group>"; };
+		1D039A4318AF9F0700126279 /* UITransitionsHostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITransitionsHostViewController.h; sourceTree = "<group>"; };
+		1D039A4418AF9F0700126279 /* UITransitionsHostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITransitionsHostViewController.m; sourceTree = "<group>"; };
+		1D039A4518AF9F0700126279 /* UITransitionsHostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITransitionsHostViewController.xib; sourceTree = "<group>"; };
+		1D039A4A18AFA04A00126279 /* FromRightToLeftAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromRightToLeftAnimatedTransitioning.h; sourceTree = "<group>"; };
+		1D039A4B18AFA04A00126279 /* FromRightToLeftAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromRightToLeftAnimatedTransitioning.m; sourceTree = "<group>"; };
+		1D3344BC183A2D3B00997E21 /* UICollectionViewCustomLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCustomLayoutViewController.h; sourceTree = "<group>"; };
+		1D3344BD183A2D3B00997E21 /* UICollectionViewCustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCustomLayoutViewController.m; sourceTree = "<group>"; };
+		1D3344BE183A2D3B00997E21 /* UICollectionViewCustomLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UICollectionViewCustomLayoutViewController.xib; sourceTree = "<group>"; };
+		1D3344C1183A2DCD00997E21 /* UICollectionViewCustomLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCustomLayoutView.h; sourceTree = "<group>"; };
+		1D3344C2183A2DCD00997E21 /* UICollectionViewCustomLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCustomLayoutView.m; sourceTree = "<group>"; };
+		1D3344C5183A2FDB00997E21 /* UICollectionViewCustomLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCustomLayoutCell.h; sourceTree = "<group>"; };
+		1D3344C6183A2FDB00997E21 /* UICollectionViewCustomLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCustomLayoutCell.m; sourceTree = "<group>"; };
+		1D3344C8183A303B00997E21 /* UICollectionViewCustomLayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UICollectionViewCustomLayoutCell.xib; sourceTree = "<group>"; };
+		1D3344CA183A329000997E21 /* UICollectionViewCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCustomLayout.h; sourceTree = "<group>"; };
+		1D3344CB183A329000997E21 /* UICollectionViewCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCustomLayout.m; sourceTree = "<group>"; };
+		1D3344CE183A36D600997E21 /* UICollectionViewCircleLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCircleLayoutViewController.h; sourceTree = "<group>"; };
+		1D3344CF183A36D600997E21 /* UICollectionViewCircleLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCircleLayoutViewController.m; sourceTree = "<group>"; };
+		1D3344D0183A36D600997E21 /* UICollectionViewCircleLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UICollectionViewCircleLayoutViewController.xib; sourceTree = "<group>"; };
+		1D3344D3183A36F900997E21 /* UICollectionViewCircleLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCircleLayoutView.h; sourceTree = "<group>"; };
+		1D3344D4183A36F900997E21 /* UICollectionViewCircleLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCircleLayoutView.m; sourceTree = "<group>"; };
+		1D3344DF183A614600997E21 /* UICollectionViewCircleLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCircleLayoutCell.h; sourceTree = "<group>"; };
+		1D3344E0183A614600997E21 /* UICollectionViewCircleLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCircleLayoutCell.m; sourceTree = "<group>"; };
+		1D3344E1183A614600997E21 /* UICollectionViewCircleLayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UICollectionViewCircleLayoutCell.xib; sourceTree = "<group>"; };
+		1D3344E3183A614600997E21 /* UICollectionViewCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCircleLayout.h; sourceTree = "<group>"; };
+		1D3344E4183A614600997E21 /* UICollectionViewCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCircleLayout.m; sourceTree = "<group>"; };
+		1D46115F18AF56C2007C19B9 /* UIIOS7NavigationBarPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIIOS7NavigationBarPresentationViewController.h; sourceTree = "<group>"; };
+		1D46116018AF56C2007C19B9 /* UIIOS7NavigationBarPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIIOS7NavigationBarPresentationViewController.m; sourceTree = "<group>"; };
+		1D46116218AF5782007C19B9 /* UIIOS7NavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIIOS7NavigationBarViewController.h; sourceTree = "<group>"; };
+		1D46116318AF5782007C19B9 /* UIIOS7NavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIIOS7NavigationBarViewController.m; sourceTree = "<group>"; };
+		1D46116418AF5782007C19B9 /* UIIOS7NavigationBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIIOS7NavigationBarViewController.xib; sourceTree = "<group>"; };
+		1D6372981725748200BD3B9E /* KnowledgeTransferProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowledgeTransferProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D63729B1725748200BD3B9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D63729D1725748200BD3B9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D63729F1725748200BD3B9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D6372A31725748200BD3B9E /* KnowledgeTransferProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnowledgeTransferProject-Info.plist"; sourceTree = "<group>"; };
+		1D6372A51725748200BD3B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D6372A71725748200BD3B9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D6372A91725748200BD3B9E /* KnowledgeTransferProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KnowledgeTransferProject-Prefix.pch"; sourceTree = "<group>"; };
+		1D6372AA1725748200BD3B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D6372AB1725748200BD3B9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6372AD1725748200BD3B9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1D6372AF1725748200BD3B9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1D6372B11725748200BD3B9E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1D6372BE1725748200BD3B9E /* KnowledgeTransferProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowledgeTransferProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6372BF1725748200BD3B9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1D6372C71725748200BD3B9E /* KnowledgeTransferProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnowledgeTransferProjectTests-Info.plist"; sourceTree = "<group>"; };
+		1D6372C91725748200BD3B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D6372CB1725748200BD3B9E /* KnowledgeTransferProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnowledgeTransferProjectTests.h; sourceTree = "<group>"; };
+		1D6372CC1725748200BD3B9E /* KnowledgeTransferProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnowledgeTransferProjectTests.m; sourceTree = "<group>"; };
+		1D6372E717257D7C00BD3B9E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1D6372E817257D7C00BD3B9E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1D6372FC172590D700BD3B9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1D6373011725922300BD3B9E /* SampleQuartzCoreDrawRectanglesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawRectanglesView.h; sourceTree = "<group>"; };
+		1D6373021725922300BD3B9E /* SampleQuartzCoreDrawRectanglesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawRectanglesView.m; sourceTree = "<group>"; };
+		1D6373031725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawRectanglesViewController.h; sourceTree = "<group>"; };
+		1D6373041725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawRectanglesViewController.m; sourceTree = "<group>"; };
+		1D6373051725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleQuartzCoreDrawRectanglesViewController.xib; sourceTree = "<group>"; };
+		1D63730A1725984B00BD3B9E /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		1D63730B1725984B00BD3B9E /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		1D63730C1725984B00BD3B9E /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		1D637311172598A100BD3B9E /* SampleDataset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDataset.h; sourceTree = "<group>"; };
+		1D637312172598A100BD3B9E /* SampleDataset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDataset.m; sourceTree = "<group>"; };
+		1D637315172598D000BD3B9E /* Sample 2. DrawBitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sample 2. DrawBitmap.png"; sourceTree = "<group>"; };
+		1D63731817259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawBitmapViewController.h; sourceTree = "<group>"; };
+		1D63731917259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawBitmapViewController.m; sourceTree = "<group>"; };
+		1D63731A17259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleQuartzCoreDrawBitmapViewController.xib; sourceTree = "<group>"; };
+		1D63731D17259ACC00BD3B9E /* SampleQuartzCoreDrawBitmapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawBitmapView.h; sourceTree = "<group>"; };
+		1D63731E17259ACC00BD3B9E /* SampleQuartzCoreDrawBitmapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawBitmapView.m; sourceTree = "<group>"; };
+		1D6373231725A51C00BD3B9E /* QuartzSampleDatasourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSampleDatasourceViewController.h; sourceTree = "<group>"; };
+		1D6373241725A51C00BD3B9E /* QuartzSampleDatasourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSampleDatasourceViewController.m; sourceTree = "<group>"; };
+		1D6373271725AABC00BD3B9E /* SampleDatasourceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDatasourceView.h; sourceTree = "<group>"; };
+		1D6373281725AABC00BD3B9E /* SampleDatasourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDatasourceView.m; sourceTree = "<group>"; };
+		1D6373291725AABC00BD3B9E /* SampleDatasourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDatasourceViewController.h; sourceTree = "<group>"; };
+		1D63732A1725AABC00BD3B9E /* SampleDatasourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDatasourceViewController.m; sourceTree = "<group>"; };
+		1D63732B1725AABC00BD3B9E /* SampleDatasourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleDatasourceViewController.xib; sourceTree = "<group>"; };
+		1D63732C1725AABC00BD3B9E /* SampleDatasourceViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDatasourceViewProtocol.h; sourceTree = "<group>"; };
+		1D63732D1725AABC00BD3B9E /* SamplesDatasourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamplesDatasourceProtocol.h; sourceTree = "<group>"; };
+		1D6373311725AAF900BD3B9E /* SampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		1D6373331725AD2200BD3B9E /* UIKitSampleDatasourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitSampleDatasourceViewController.h; sourceTree = "<group>"; };
+		1D6373341725AD2200BD3B9E /* UIKitSampleDatasourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitSampleDatasourceViewController.m; sourceTree = "<group>"; };
+		1D63734A1726764500BD3B9E /* SampleQuartzCoreDrawPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawPathView.h; sourceTree = "<group>"; };
+		1D63734B1726764500BD3B9E /* SampleQuartzCoreDrawPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawPathView.m; sourceTree = "<group>"; };
+		1D63734C1726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawPathViewController.h; sourceTree = "<group>"; };
+		1D63734D1726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawPathViewController.m; sourceTree = "<group>"; };
+		1D63734E1726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleQuartzCoreDrawPathViewController.xib; sourceTree = "<group>"; };
+		1D6373531726769F00BD3B9E /* QuartzSample3PathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample3PathViewController.h; sourceTree = "<group>"; };
+		1D6373541726769F00BD3B9E /* QuartzSample3PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample3PathViewController.m; sourceTree = "<group>"; };
+		1D637356172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreFillPathViewController.h; sourceTree = "<group>"; };
+		1D637357172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreFillPathViewController.m; sourceTree = "<group>"; };
+		1D637358172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleQuartzCoreFillPathViewController.xib; sourceTree = "<group>"; };
+		1D63735B172678C900BD3B9E /* SampleQuartzCoreFillPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreFillPathView.h; sourceTree = "<group>"; };
+		1D63735C172678C900BD3B9E /* SampleQuartzCoreFillPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreFillPathView.m; sourceTree = "<group>"; };
+		1D63735F17267EE200BD3B9E /* SamplesStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamplesStore.h; sourceTree = "<group>"; };
+		1D63736017267EE200BD3B9E /* SamplesStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamplesStore.m; sourceTree = "<group>"; };
+		1D63736F1726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsDrawUIImageView.h; sourceTree = "<group>"; };
+		1D6373701726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsDrawUIImageView.m; sourceTree = "<group>"; };
+		1D6373711726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsDrawUIImageViewController.h; sourceTree = "<group>"; };
+		1D6373721726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsDrawUIImageViewController.m; sourceTree = "<group>"; };
+		1D6373731726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzSample4TransformationsDrawUIImageViewController.xib; sourceTree = "<group>"; };
+		1D6373771726AFBE00BD3B9E /* QuartzSample4TransformationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsViewController.h; sourceTree = "<group>"; };
+		1D6373781726AFBE00BD3B9E /* QuartzSample4TransformationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsViewController.m; sourceTree = "<group>"; };
+		1D63737F1726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsTranslationsViewController.h; sourceTree = "<group>"; };
+		1D6373801726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsTranslationsViewController.m; sourceTree = "<group>"; };
+		1D6373811726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzSample4TransformationsTranslationsViewController.xib; sourceTree = "<group>"; };
+		1D6373841726DF4100BD3B9E /* QuartzSample4TransformationsTranslationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsTranslationsView.h; sourceTree = "<group>"; };
+		1D6373851726DF4100BD3B9E /* QuartzSample4TransformationsTranslationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsTranslationsView.m; sourceTree = "<group>"; };
+		1D6373881726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsScalingViewController.h; sourceTree = "<group>"; };
+		1D6373891726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsScalingViewController.m; sourceTree = "<group>"; };
+		1D63738A1726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzSample4TransformationsScalingViewController.xib; sourceTree = "<group>"; };
+		1D63738D1726E60D00BD3B9E /* QuartzSample4TransformationsScalingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsScalingView.h; sourceTree = "<group>"; };
+		1D63738E1726E60D00BD3B9E /* QuartzSample4TransformationsScalingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsScalingView.m; sourceTree = "<group>"; };
+		1D6373911726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsRotationViewController.h; sourceTree = "<group>"; };
+		1D6373921726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsRotationViewController.m; sourceTree = "<group>"; };
+		1D6373931726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzSample4TransformationsRotationViewController.xib; sourceTree = "<group>"; };
+		1D6373961726E9BF00BD3B9E /* QuartzSample4TransformationsRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsRotationView.h; sourceTree = "<group>"; };
+		1D6373971726E9C000BD3B9E /* QuartzSample4TransformationsRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsRotationView.m; sourceTree = "<group>"; };
+		1D7D0138172968FA006B6641 /* QuartzSampleSpritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSampleSpritesViewController.h; sourceTree = "<group>"; };
+		1D7D0139172968FA006B6641 /* QuartzSampleSpritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSampleSpritesViewController.m; sourceTree = "<group>"; };
+		1D7D013B1729699E006B6641 /* QuartzSampleSpritesDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSampleSpritesDrawViewController.h; sourceTree = "<group>"; };
+		1D7D013C1729699E006B6641 /* QuartzSampleSpritesDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSampleSpritesDrawViewController.m; sourceTree = "<group>"; };
+		1D7D013D1729699E006B6641 /* QuartzSampleSpritesDrawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzSampleSpritesDrawViewController.xib; sourceTree = "<group>"; };
+		1D7D0140172969B7006B6641 /* QuartzSampleSpritesDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSampleSpritesDrawView.h; sourceTree = "<group>"; };
+		1D7D0141172969B7006B6641 /* QuartzSampleSpritesDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSampleSpritesDrawView.m; sourceTree = "<group>"; };
+		1D7D014417296A72006B6641 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		1D7D014517296A72006B6641 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		1D7D014B17297B47006B6641 /* TriangleSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleSprite.h; sourceTree = "<group>"; };
+		1D7D014C17297B47006B6641 /* TriangleSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleSprite.m; sourceTree = "<group>"; };
+		1D7D014E17297B5A006B6641 /* VectorSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorSprite.h; sourceTree = "<group>"; };
+		1D7D014F17297B5A006B6641 /* VectorSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VectorSprite.m; sourceTree = "<group>"; };
+		1DACEF161728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawCoordinatesViewController.h; sourceTree = "<group>"; };
+		1DACEF171728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawCoordinatesViewController.m; sourceTree = "<group>"; };
+		1DACEF181728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleQuartzCoreDrawCoordinatesViewController.xib; sourceTree = "<group>"; };
+		1DACEF1B1728434E00AA6A6E /* SampleQuartzCoreDrawCoordinatesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawCoordinatesView.h; sourceTree = "<group>"; };
+		1DACEF1C1728434E00AA6A6E /* SampleQuartzCoreDrawCoordinatesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawCoordinatesView.m; sourceTree = "<group>"; };
+		1DACEF1F1728467C00AA6A6E /* customMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customMath.h; sourceTree = "<group>"; };
+		1DACEF201728469E00AA6A6E /* DrawingSnippets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingSnippets.h; sourceTree = "<group>"; };
+		1DACEF211728485300AA6A6E /* QuartzSampleRestoreGraphicsState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSampleRestoreGraphicsState.h; sourceTree = "<group>"; };
+		1DACEF221728485300AA6A6E /* QuartzSampleRestoreGraphicsState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSampleRestoreGraphicsState.m; sourceTree = "<group>"; };
+		1DACEF25172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawCoordinatesAndRectangleViewController.h; sourceTree = "<group>"; };
+		1DACEF26172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawCoordinatesAndRectangleViewController.m; sourceTree = "<group>"; };
+		1DACEF27172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleQuartzCoreDrawCoordinatesAndRectangleViewController.xib; sourceTree = "<group>"; };
+		1DACEF2A172849D400AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQuartzCoreDrawCoordinatesAndRectangleView.h; sourceTree = "<group>"; };
+		1DACEF2B172849D400AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQuartzCoreDrawCoordinatesAndRectangleView.m; sourceTree = "<group>"; };
+		1DACEF2D17284AD400AA6A6E /* DrawingSnippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingSnippets.m; sourceTree = "<group>"; };
+		1DACEF3317284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsLoopRotationViewController.h; sourceTree = "<group>"; };
+		1DACEF3417284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsLoopRotationViewController.m; sourceTree = "<group>"; };
+		1DACEF3517284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzSample4TransformationsLoopRotationViewController.xib; sourceTree = "<group>"; };
+		1DACEF3817284F5F00AA6A6E /* QuartzSample4TransformationsLoopRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSample4TransformationsLoopRotationView.h; sourceTree = "<group>"; };
+		1DACEF3917284F5F00AA6A6E /* QuartzSample4TransformationsLoopRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSample4TransformationsLoopRotationView.m; sourceTree = "<group>"; };
+		1DBB245C172C3927009690D6 /* SpriteDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteDrawer.h; sourceTree = "<group>"; };
+		1DBB245D172C3927009690D6 /* SpriteDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteDrawer.m; sourceTree = "<group>"; };
+		1DBB2461172C3928009690D6 /* NSValue+Sprites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+Sprites.h"; sourceTree = "<group>"; };
+		1DBB2462172C3928009690D6 /* NSValue+Sprites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+Sprites.m"; sourceTree = "<group>"; };
+		1DBB2468172C39E1009690D6 /* Space.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Space.h; sourceTree = "<group>"; };
+		1DBB2469172C39E1009690D6 /* Space.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Space.m; sourceTree = "<group>"; };
+		1DBB246E172C3A19009690D6 /* SpaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceObject.h; sourceTree = "<group>"; };
+		1DBB246F172C3A19009690D6 /* SpaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceObject.m; sourceTree = "<group>"; };
+		1DBB2472172C3C69009690D6 /* SpriteLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteLocation.h; sourceTree = "<group>"; };
+		1DBB2473172C3C69009690D6 /* SpriteLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteLocation.m; sourceTree = "<group>"; };
+		1DBB2475172C3D14009690D6 /* SpriteSubstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteSubstance.h; sourceTree = "<group>"; };
+		1DBB2476172C3D14009690D6 /* SpriteSubstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteSubstance.m; sourceTree = "<group>"; };
+		1DBB2478172C3DDB009690D6 /* SpriteProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteProperty.h; sourceTree = "<group>"; };
+		1DBB247D172C4A8A009690D6 /* SpaceObjectMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceObjectMediator.h; sourceTree = "<group>"; };
+		1DBB247E172C4A8A009690D6 /* SpaceObjectMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceObjectMediator.m; sourceTree = "<group>"; };
+		1DD383051746094A00B17389 /* DesignPatternDataproviderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternDataproviderViewController.h; sourceTree = "<group>"; };
+		1DD383061746094A00B17389 /* DesignPatternDataproviderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternDataproviderViewController.m; sourceTree = "<group>"; };
+		1DD3830E1746324400B17389 /* DesignPatternsSampleDatasourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternsSampleDatasourceViewController.h; sourceTree = "<group>"; };
+		1DD3830F1746324400B17389 /* DesignPatternsSampleDatasourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsSampleDatasourceViewController.m; sourceTree = "<group>"; };
+		1DDE88F31738F6B400F9BA87 /* DesignPatternComposerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternComposerViewController.h; sourceTree = "<group>"; };
+		1DDE88F41738F6B400F9BA87 /* DesignPatternComposerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternComposerViewController.m; sourceTree = "<group>"; };
+		1DDE88F51738F6B400F9BA87 /* DesignPatternComposerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignPatternComposerViewController.xib; sourceTree = "<group>"; };
+		1DDE88F81738F6C400F9BA87 /* DesignPatternComposerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternComposerView.h; sourceTree = "<group>"; };
+		1DDE88F91738F6C400F9BA87 /* DesignPatternComposerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternComposerView.m; sourceTree = "<group>"; };
+		1DDE88FE1738F88C00F9BA87 /* DesignPatternCompositionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatternCompositionProtocol.h; sourceTree = "<group>"; };
+		1DDE88FF1738FEDA00F9BA87 /* DesignPatternComposerComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternComposerComposition.h; sourceTree = "<group>"; };
+		1DDE89001738FEDA00F9BA87 /* DesignPatternComposerComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternComposerComposition.m; sourceTree = "<group>"; };
+		1DDE89031739028400F9BA87 /* DesignPatternComposerCompositionFigureL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternComposerCompositionFigureL.h; sourceTree = "<group>"; };
+		1DDE89041739028400F9BA87 /* DesignPatternComposerCompositionFigureL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternComposerCompositionFigureL.m; sourceTree = "<group>"; };
+		1DDE894F173A47F800F9BA87 /* DesignPatternComposerLeaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternComposerLeaf.h; sourceTree = "<group>"; };
+		1DDE8950173A47F800F9BA87 /* DesignPatternComposerLeaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternComposerLeaf.m; sourceTree = "<group>"; };
+		1DDE8951173A47F800F9BA87 /* DesignPatternComposerLeafSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternComposerLeafSquare.h; sourceTree = "<group>"; };
+		1DDE8952173A47F800F9BA87 /* DesignPatternComposerLeafSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternComposerLeafSquare.m; sourceTree = "<group>"; };
+		1DDE8956173A492C00F9BA87 /* appcode_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appcode_icon.png; sourceTree = "<group>"; };
+		1DDE8958173A494E00F9BA87 /* DesignPatternComposerLeafImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternComposerLeafImage.h; sourceTree = "<group>"; };
+		1DDE8959173A494E00F9BA87 /* DesignPatternComposerLeafImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternComposerLeafImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6372951725748200BD3B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6372FD172590D700BD3B9E /* QuartzCore.framework in Frameworks */,
+				1D63729C1725748200BD3B9E /* UIKit.framework in Frameworks */,
+				1D63729E1725748200BD3B9E /* Foundation.framework in Frameworks */,
+				1D6372A01725748200BD3B9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6372BA1725748200BD3B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6372C01725748200BD3B9E /* SenTestingKit.framework in Frameworks */,
+				1D6372C11725748200BD3B9E /* UIKit.framework in Frameworks */,
+				1D6372C21725748200BD3B9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D039A2B18AF955E00126279 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				1D039A3F18AF9F0700126279 /* samples */,
+				1D039A3A18AF9E6F00126279 /* UIViewControllerTransitioningDelegates */,
+				1D039A2C18AF95CB00126279 /* UITransitionsViewController.h */,
+				1D039A2D18AF95CB00126279 /* UITransitionsViewController.m */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		1D039A3A18AF9E6F00126279 /* UIViewControllerTransitioningDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				1D039A3B18AF9E8400126279 /* FromRightToLeft */,
+			);
+			path = UIViewControllerTransitioningDelegates;
+			sourceTree = "<group>";
+		};
+		1D039A3B18AF9E8400126279 /* FromRightToLeft */ = {
+			isa = PBXGroup;
+			children = (
+				1D039A3C18AF9EA700126279 /* FromRightToLeftTransitioningDelegate.h */,
+				1D039A3D18AF9EA700126279 /* FromRightToLeftTransitioningDelegate.m */,
+				1D039A4A18AFA04A00126279 /* FromRightToLeftAnimatedTransitioning.h */,
+				1D039A4B18AFA04A00126279 /* FromRightToLeftAnimatedTransitioning.m */,
+			);
+			path = FromRightToLeft;
+			sourceTree = "<group>";
+		};
+		1D039A3F18AF9F0700126279 /* samples */ = {
+			isa = PBXGroup;
+			children = (
+				1D039A4018AF9F0700126279 /* UITransitionsGuestViewController.h */,
+				1D039A4118AF9F0700126279 /* UITransitionsGuestViewController.m */,
+				1D039A4218AF9F0700126279 /* UITransitionsGuestViewController.xib */,
+				1D039A4318AF9F0700126279 /* UITransitionsHostViewController.h */,
+				1D039A4418AF9F0700126279 /* UITransitionsHostViewController.m */,
+				1D039A4518AF9F0700126279 /* UITransitionsHostViewController.xib */,
+			);
+			path = samples;
+			sourceTree = "<group>";
+		};
+		1D3344BB183A2D1400997E21 /* UICollectionViewCustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1D3344C4183A2FBB00997E21 /* UICollectionViewSubclasses */,
+				1D3344BC183A2D3B00997E21 /* UICollectionViewCustomLayoutViewController.h */,
+				1D3344BD183A2D3B00997E21 /* UICollectionViewCustomLayoutViewController.m */,
+				1D3344BE183A2D3B00997E21 /* UICollectionViewCustomLayoutViewController.xib */,
+				1D3344C1183A2DCD00997E21 /* UICollectionViewCustomLayoutView.h */,
+				1D3344C2183A2DCD00997E21 /* UICollectionViewCustomLayoutView.m */,
+			);
+			path = UICollectionViewCustomLayout;
+			sourceTree = "<group>";
+		};
+		1D3344C4183A2FBB00997E21 /* UICollectionViewSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				1D3344C5183A2FDB00997E21 /* UICollectionViewCustomLayoutCell.h */,
+				1D3344C6183A2FDB00997E21 /* UICollectionViewCustomLayoutCell.m */,
+				1D3344C8183A303B00997E21 /* UICollectionViewCustomLayoutCell.xib */,
+				1D3344CA183A329000997E21 /* UICollectionViewCustomLayout.h */,
+				1D3344CB183A329000997E21 /* UICollectionViewCustomLayout.m */,
+			);
+			path = UICollectionViewSubclasses;
+			sourceTree = "<group>";
+		};
+		1D3344CD183A36BF00997E21 /* UICollectionViewCircleLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1D3344DE183A614600997E21 /* Cells */,
+				1D3344E2183A614600997E21 /* layout */,
+				1D3344D3183A36F900997E21 /* UICollectionViewCircleLayoutView.h */,
+				1D3344D4183A36F900997E21 /* UICollectionViewCircleLayoutView.m */,
+				1D3344CE183A36D600997E21 /* UICollectionViewCircleLayoutViewController.h */,
+				1D3344CF183A36D600997E21 /* UICollectionViewCircleLayoutViewController.m */,
+				1D3344D0183A36D600997E21 /* UICollectionViewCircleLayoutViewController.xib */,
+			);
+			path = UICollectionViewCircleLayout;
+			sourceTree = "<group>";
+		};
+		1D3344DE183A614600997E21 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1D3344DF183A614600997E21 /* UICollectionViewCircleLayoutCell.h */,
+				1D3344E0183A614600997E21 /* UICollectionViewCircleLayoutCell.m */,
+				1D3344E1183A614600997E21 /* UICollectionViewCircleLayoutCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1D3344E2183A614600997E21 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				1D3344E3183A614600997E21 /* UICollectionViewCircleLayout.h */,
+				1D3344E4183A614600997E21 /* UICollectionViewCircleLayout.m */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		1D46115C18AF5622007C19B9 /* iOS7 */ = {
+			isa = PBXGroup;
+			children = (
+				1D46115E18AF569C007C19B9 /* UIIOS7NavigationBarPresentationViewController */,
+			);
+			path = iOS7;
+			sourceTree = "<group>";
+		};
+		1D46115E18AF569C007C19B9 /* UIIOS7NavigationBarPresentationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1D46115F18AF56C2007C19B9 /* UIIOS7NavigationBarPresentationViewController.h */,
+				1D46116018AF56C2007C19B9 /* UIIOS7NavigationBarPresentationViewController.m */,
+				1D46116218AF5782007C19B9 /* UIIOS7NavigationBarViewController.h */,
+				1D46116318AF5782007C19B9 /* UIIOS7NavigationBarViewController.m */,
+				1D46116418AF5782007C19B9 /* UIIOS7NavigationBarViewController.xib */,
+			);
+			path = UIIOS7NavigationBarPresentationViewController;
+			sourceTree = "<group>";
+		};
+		1D63728F1725748200BD3B9E = {
+			isa = PBXGroup;
+			children = (
+				1D6372A11725748200BD3B9E /* KnowledgeTransferProject */,
+				1D6372C51725748200BD3B9E /* KnowledgeTransferProjectTests */,
+				1D63729A1725748200BD3B9E /* Frameworks */,
+				1D6372991725748200BD3B9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6372991725748200BD3B9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6372981725748200BD3B9E /* KnowledgeTransferProject.app */,
+				1D6372BE1725748200BD3B9E /* KnowledgeTransferProjectTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D63729A1725748200BD3B9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D6372FC172590D700BD3B9E /* QuartzCore.framework */,
+				1D63729B1725748200BD3B9E /* UIKit.framework */,
+				1D63729D1725748200BD3B9E /* Foundation.framework */,
+				1D63729F1725748200BD3B9E /* CoreGraphics.framework */,
+				1D6372BF1725748200BD3B9E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D6372A11725748200BD3B9E /* KnowledgeTransferProject */ = {
+			isa = PBXGroup;
+			children = (
+				1DACEF1E1728467C00AA6A6E /* support */,
+				1D6372FE1725922200BD3B9E /* samples */,
+				1D6372E417257D7C00BD3B9E /* root */,
+				1D6372AA1725748200BD3B9E /* AppDelegate.h */,
+				1D6372AB1725748200BD3B9E /* AppDelegate.m */,
+				1D6372A21725748200BD3B9E /* Supporting Files */,
+			);
+			path = KnowledgeTransferProject;
+			sourceTree = "<group>";
+		};
+		1D6372A21725748200BD3B9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D637314172598CF00BD3B9E /* resources */,
+				1D6372A31725748200BD3B9E /* KnowledgeTransferProject-Info.plist */,
+				1D6372A41725748200BD3B9E /* InfoPlist.strings */,
+				1D6372A71725748200BD3B9E /* main.m */,
+				1D6372A91725748200BD3B9E /* KnowledgeTransferProject-Prefix.pch */,
+				1D6372AD1725748200BD3B9E /* Default.png */,
+				1D6372AF1725748200BD3B9E /* Default@2x.png */,
+				1D6372B11725748200BD3B9E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D6372C51725748200BD3B9E /* KnowledgeTransferProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6372CB1725748200BD3B9E /* KnowledgeTransferProjectTests.h */,
+				1D6372CC1725748200BD3B9E /* KnowledgeTransferProjectTests.m */,
+				1D6372C61725748200BD3B9E /* Supporting Files */,
+			);
+			path = KnowledgeTransferProjectTests;
+			sourceTree = "<group>";
+		};
+		1D6372C61725748200BD3B9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D6372C71725748200BD3B9E /* KnowledgeTransferProjectTests-Info.plist */,
+				1D6372C81725748200BD3B9E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D6372E417257D7C00BD3B9E /* root */ = {
+			isa = PBXGroup;
+			children = (
+				1D63735E17267ECE00BD3B9E /* samplesStore */,
+				1D6373261725AABC00BD3B9E /* SampleDatasourceViewController */,
+				1D637310172598A100BD3B9E /* dataset */,
+				1D6373091725984B00BD3B9E /* cells */,
+				1D6372E717257D7C00BD3B9E /* MainViewController.h */,
+				1D6372E817257D7C00BD3B9E /* MainViewController.m */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		1D6372FE1725922200BD3B9E /* samples */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE88F11738F68600F9BA87 /* Design Patterns */,
+				1D6373321725AD0800BD3B9E /* UIKit */,
+				1D6372FF1725922300BD3B9E /* Quartz */,
+			);
+			path = samples;
+			sourceTree = "<group>";
+		};
+		1D6372FF1725922300BD3B9E /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				1D7D0136172968D3006B6641 /* Sample 6 Sprites */,
+				1DACEF141728430D00AA6A6E /* Sample 5 SaveRestoreGraphicsState */,
+				1D63736D1726AF7F00BD3B9E /* Sample 4 Transformations (CTM) */,
+				1D6373481726764200BD3B9E /* Sample 3 Path */,
+				1D63731717259A9500BD3B9E /* Sample 2 Draw bitmap */,
+				1D6373001725922300BD3B9E /* Sample 1 FillRectangle */,
+				1D6373231725A51C00BD3B9E /* QuartzSampleDatasourceViewController.h */,
+				1D6373241725A51C00BD3B9E /* QuartzSampleDatasourceViewController.m */,
+			);
+			path = Quartz;
+			sourceTree = "<group>";
+		};
+		1D6373001725922300BD3B9E /* Sample 1 FillRectangle */ = {
+			isa = PBXGroup;
+			children = (
+				1D6373011725922300BD3B9E /* SampleQuartzCoreDrawRectanglesView.h */,
+				1D6373021725922300BD3B9E /* SampleQuartzCoreDrawRectanglesView.m */,
+				1D6373031725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.h */,
+				1D6373041725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.m */,
+				1D6373051725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.xib */,
+			);
+			path = "Sample 1 FillRectangle";
+			sourceTree = "<group>";
+		};
+		1D6373091725984B00BD3B9E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				1D63730A1725984B00BD3B9E /* MainTableViewCell.h */,
+				1D63730B1725984B00BD3B9E /* MainTableViewCell.m */,
+				1D63730C1725984B00BD3B9E /* MainTableViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		1D637310172598A100BD3B9E /* dataset */ = {
+			isa = PBXGroup;
+			children = (
+				1D637311172598A100BD3B9E /* SampleDataset.h */,
+				1D637312172598A100BD3B9E /* SampleDataset.m */,
+			);
+			path = dataset;
+			sourceTree = "<group>";
+		};
+		1D637314172598CF00BD3B9E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D637315172598D000BD3B9E /* Sample 2. DrawBitmap.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		1D63731717259A9500BD3B9E /* Sample 2 Draw bitmap */ = {
+			isa = PBXGroup;
+			children = (
+				1D63731817259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.h */,
+				1D63731917259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.m */,
+				1D63731A17259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.xib */,
+				1D63731D17259ACC00BD3B9E /* SampleQuartzCoreDrawBitmapView.h */,
+				1D63731E17259ACC00BD3B9E /* SampleQuartzCoreDrawBitmapView.m */,
+			);
+			path = "Sample 2 Draw bitmap";
+			sourceTree = "<group>";
+		};
+		1D6373261725AABC00BD3B9E /* SampleDatasourceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1D6373311725AAF900BD3B9E /* SampleProtocol.h */,
+				1D6373271725AABC00BD3B9E /* SampleDatasourceView.h */,
+				1D6373281725AABC00BD3B9E /* SampleDatasourceView.m */,
+				1D6373291725AABC00BD3B9E /* SampleDatasourceViewController.h */,
+				1D63732A1725AABC00BD3B9E /* SampleDatasourceViewController.m */,
+				1D63732B1725AABC00BD3B9E /* SampleDatasourceViewController.xib */,
+				1D63732C1725AABC00BD3B9E /* SampleDatasourceViewProtocol.h */,
+				1D63732D1725AABC00BD3B9E /* SamplesDatasourceProtocol.h */,
+			);
+			path = SampleDatasourceViewController;
+			sourceTree = "<group>";
+		};
+		1D6373321725AD0800BD3B9E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1D039A2B18AF955E00126279 /* Transitions */,
+				1D46115C18AF5622007C19B9 /* iOS7 */,
+				1D3344CD183A36BF00997E21 /* UICollectionViewCircleLayout */,
+				1D3344BB183A2D1400997E21 /* UICollectionViewCustomLayout */,
+				1D6373331725AD2200BD3B9E /* UIKitSampleDatasourceViewController.h */,
+				1D6373341725AD2200BD3B9E /* UIKitSampleDatasourceViewController.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1D6373481726764200BD3B9E /* Sample 3 Path */ = {
+			isa = PBXGroup;
+			children = (
+				1D6373521726767100BD3B9E /* Sample 3.2 FillPath */,
+				1D6373491726764500BD3B9E /* Sample 3.1 DrawPath */,
+				1D6373531726769F00BD3B9E /* QuartzSample3PathViewController.h */,
+				1D6373541726769F00BD3B9E /* QuartzSample3PathViewController.m */,
+			);
+			path = "Sample 3 Path";
+			sourceTree = "<group>";
+		};
+		1D6373491726764500BD3B9E /* Sample 3.1 DrawPath */ = {
+			isa = PBXGroup;
+			children = (
+				1D63734A1726764500BD3B9E /* SampleQuartzCoreDrawPathView.h */,
+				1D63734B1726764500BD3B9E /* SampleQuartzCoreDrawPathView.m */,
+				1D63734C1726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.h */,
+				1D63734D1726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.m */,
+				1D63734E1726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.xib */,
+			);
+			path = "Sample 3.1 DrawPath";
+			sourceTree = "<group>";
+		};
+		1D6373521726767100BD3B9E /* Sample 3.2 FillPath */ = {
+			isa = PBXGroup;
+			children = (
+				1D637356172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.h */,
+				1D637357172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.m */,
+				1D637358172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.xib */,
+				1D63735B172678C900BD3B9E /* SampleQuartzCoreFillPathView.h */,
+				1D63735C172678C900BD3B9E /* SampleQuartzCoreFillPathView.m */,
+			);
+			path = "Sample 3.2 FillPath";
+			sourceTree = "<group>";
+		};
+		1D63735E17267ECE00BD3B9E /* samplesStore */ = {
+			isa = PBXGroup;
+			children = (
+				1D63735F17267EE200BD3B9E /* SamplesStore.h */,
+				1D63736017267EE200BD3B9E /* SamplesStore.m */,
+			);
+			path = samplesStore;
+			sourceTree = "<group>";
+		};
+		1D63736D1726AF7F00BD3B9E /* Sample 4 Transformations (CTM) */ = {
+			isa = PBXGroup;
+			children = (
+				1DACEF2F17284F1A00AA6A6E /* Sample 4.5 Loop transformations */,
+				1D6373901726E98500BD3B9E /* Sample 4.4 Transformations rotation */,
+				1D6373871726E5D200BD3B9E /* Sample 4.3 Transformations scaling */,
+				1D63737B1726DEE400BD3B9E /* Sample 4.2 Transformations translations */,
+				1D63736E1726AF8000BD3B9E /* Sample 4.1 Transformations (CTM) Draw Image */,
+				1D6373771726AFBE00BD3B9E /* QuartzSample4TransformationsViewController.h */,
+				1D6373781726AFBE00BD3B9E /* QuartzSample4TransformationsViewController.m */,
+			);
+			path = "Sample 4 Transformations (CTM)";
+			sourceTree = "<group>";
+		};
+		1D63736E1726AF8000BD3B9E /* Sample 4.1 Transformations (CTM) Draw Image */ = {
+			isa = PBXGroup;
+			children = (
+				1D63736F1726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageView.h */,
+				1D6373701726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageView.m */,
+				1D6373711726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.h */,
+				1D6373721726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.m */,
+				1D6373731726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.xib */,
+			);
+			path = "Sample 4.1 Transformations (CTM) Draw Image";
+			sourceTree = "<group>";
+		};
+		1D63737B1726DEE400BD3B9E /* Sample 4.2 Transformations translations */ = {
+			isa = PBXGroup;
+			children = (
+				1D63737F1726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.h */,
+				1D6373801726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.m */,
+				1D6373811726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.xib */,
+				1D6373841726DF4100BD3B9E /* QuartzSample4TransformationsTranslationsView.h */,
+				1D6373851726DF4100BD3B9E /* QuartzSample4TransformationsTranslationsView.m */,
+			);
+			path = "Sample 4.2 Transformations translations";
+			sourceTree = "<group>";
+		};
+		1D6373871726E5D200BD3B9E /* Sample 4.3 Transformations scaling */ = {
+			isa = PBXGroup;
+			children = (
+				1D6373881726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.h */,
+				1D6373891726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.m */,
+				1D63738A1726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.xib */,
+				1D63738D1726E60D00BD3B9E /* QuartzSample4TransformationsScalingView.h */,
+				1D63738E1726E60D00BD3B9E /* QuartzSample4TransformationsScalingView.m */,
+			);
+			path = "Sample 4.3 Transformations scaling";
+			sourceTree = "<group>";
+		};
+		1D6373901726E98500BD3B9E /* Sample 4.4 Transformations rotation */ = {
+			isa = PBXGroup;
+			children = (
+				1D6373911726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.h */,
+				1D6373921726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.m */,
+				1D6373931726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.xib */,
+				1D6373961726E9BF00BD3B9E /* QuartzSample4TransformationsRotationView.h */,
+				1D6373971726E9C000BD3B9E /* QuartzSample4TransformationsRotationView.m */,
+			);
+			path = "Sample 4.4 Transformations rotation";
+			sourceTree = "<group>";
+		};
+		1D7D0136172968D3006B6641 /* Sample 6 Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				1D7D0137172968D3006B6641 /* Sample 6.1 Sprite Draw */,
+				1D7D0138172968FA006B6641 /* QuartzSampleSpritesViewController.h */,
+				1D7D0139172968FA006B6641 /* QuartzSampleSpritesViewController.m */,
+			);
+			path = "Sample 6 Sprites";
+			sourceTree = "<group>";
+		};
+		1D7D0137172968D3006B6641 /* Sample 6.1 Sprite Draw */ = {
+			isa = PBXGroup;
+			children = (
+				1D7D013B1729699E006B6641 /* QuartzSampleSpritesDrawViewController.h */,
+				1D7D013C1729699E006B6641 /* QuartzSampleSpritesDrawViewController.m */,
+				1D7D013D1729699E006B6641 /* QuartzSampleSpritesDrawViewController.xib */,
+				1D7D0140172969B7006B6641 /* QuartzSampleSpritesDrawView.h */,
+				1D7D0141172969B7006B6641 /* QuartzSampleSpritesDrawView.m */,
+			);
+			path = "Sample 6.1 Sprite Draw";
+			sourceTree = "<group>";
+		};
+		1D7D014317296A62006B6641 /* sprites */ = {
+			isa = PBXGroup;
+			children = (
+				1D7D014A17297B46006B6641 /* sampleSprites */,
+				1D7D014417296A72006B6641 /* Sprite.h */,
+				1D7D014517296A72006B6641 /* Sprite.m */,
+				1D7D014E17297B5A006B6641 /* VectorSprite.h */,
+				1D7D014F17297B5A006B6641 /* VectorSprite.m */,
+			);
+			path = sprites;
+			sourceTree = "<group>";
+		};
+		1D7D014A17297B46006B6641 /* sampleSprites */ = {
+			isa = PBXGroup;
+			children = (
+				1D7D014B17297B47006B6641 /* TriangleSprite.h */,
+				1D7D014C17297B47006B6641 /* TriangleSprite.m */,
+			);
+			path = sampleSprites;
+			sourceTree = "<group>";
+		};
+		1DACEF141728430D00AA6A6E /* Sample 5 SaveRestoreGraphicsState */ = {
+			isa = PBXGroup;
+			children = (
+				1DACEF241728496A00AA6A6E /* Sample 5.2 Draw rectangle */,
+				1DACEF151728430D00AA6A6E /* Sample 5.1 Draw coordinates */,
+				1DACEF211728485300AA6A6E /* QuartzSampleRestoreGraphicsState.h */,
+				1DACEF221728485300AA6A6E /* QuartzSampleRestoreGraphicsState.m */,
+			);
+			path = "Sample 5 SaveRestoreGraphicsState";
+			sourceTree = "<group>";
+		};
+		1DACEF151728430D00AA6A6E /* Sample 5.1 Draw coordinates */ = {
+			isa = PBXGroup;
+			children = (
+				1DACEF161728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.h */,
+				1DACEF171728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.m */,
+				1DACEF181728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.xib */,
+				1DACEF1B1728434E00AA6A6E /* SampleQuartzCoreDrawCoordinatesView.h */,
+				1DACEF1C1728434E00AA6A6E /* SampleQuartzCoreDrawCoordinatesView.m */,
+			);
+			path = "Sample 5.1 Draw coordinates";
+			sourceTree = "<group>";
+		};
+		1DACEF1E1728467C00AA6A6E /* support */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB2458172C3927009690D6 /* kit */,
+				1DBB2460172C3927009690D6 /* overloads */,
+				1D7D014317296A62006B6641 /* sprites */,
+				1DACEF1F1728467C00AA6A6E /* customMath.h */,
+				1DACEF2D17284AD400AA6A6E /* DrawingSnippets.m */,
+				1DACEF201728469E00AA6A6E /* DrawingSnippets.h */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		1DACEF241728496A00AA6A6E /* Sample 5.2 Draw rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				1DACEF25172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.h */,
+				1DACEF26172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.m */,
+				1DACEF27172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.xib */,
+				1DACEF2A172849D400AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleView.h */,
+				1DACEF2B172849D400AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleView.m */,
+			);
+			path = "Sample 5.2 Draw rectangle";
+			sourceTree = "<group>";
+		};
+		1DACEF2F17284F1A00AA6A6E /* Sample 4.5 Loop transformations */ = {
+			isa = PBXGroup;
+			children = (
+				1DACEF3317284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.h */,
+				1DACEF3417284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.m */,
+				1DACEF3517284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.xib */,
+				1DACEF3817284F5F00AA6A6E /* QuartzSample4TransformationsLoopRotationView.h */,
+				1DACEF3917284F5F00AA6A6E /* QuartzSample4TransformationsLoopRotationView.m */,
+			);
+			path = "Sample 4.5 Loop transformations";
+			sourceTree = "<group>";
+		};
+		1DBB2458172C3927009690D6 /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB2467172C39E1009690D6 /* physics */,
+				1DBB245C172C3927009690D6 /* SpriteDrawer.h */,
+				1DBB245D172C3927009690D6 /* SpriteDrawer.m */,
+			);
+			path = kit;
+			sourceTree = "<group>";
+		};
+		1DBB2460172C3927009690D6 /* overloads */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB2461172C3928009690D6 /* NSValue+Sprites.h */,
+				1DBB2462172C3928009690D6 /* NSValue+Sprites.m */,
+			);
+			path = overloads;
+			sourceTree = "<group>";
+		};
+		1DBB2467172C39E1009690D6 /* physics */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB2479172C46AD009690D6 /* mediators */,
+				1DBB2471172C3C69009690D6 /* SpaceObjectProperties */,
+				1DBB2468172C39E1009690D6 /* Space.h */,
+				1DBB2469172C39E1009690D6 /* Space.m */,
+				1DBB246E172C3A19009690D6 /* SpaceObject.h */,
+				1DBB246F172C3A19009690D6 /* SpaceObject.m */,
+			);
+			path = physics;
+			sourceTree = "<group>";
+		};
+		1DBB2471172C3C69009690D6 /* SpaceObjectProperties */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB2472172C3C69009690D6 /* SpriteLocation.h */,
+				1DBB2473172C3C69009690D6 /* SpriteLocation.m */,
+				1DBB2475172C3D14009690D6 /* SpriteSubstance.h */,
+				1DBB2476172C3D14009690D6 /* SpriteSubstance.m */,
+				1DBB2478172C3DDB009690D6 /* SpriteProperty.h */,
+			);
+			path = SpaceObjectProperties;
+			sourceTree = "<group>";
+		};
+		1DBB2479172C46AD009690D6 /* mediators */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB247D172C4A8A009690D6 /* SpaceObjectMediator.h */,
+				1DBB247E172C4A8A009690D6 /* SpaceObjectMediator.m */,
+			);
+			name = mediators;
+			path = KnowledgeTransferProject/support/kit/mediators;
+			sourceTree = SOURCE_ROOT;
+		};
+		1DD383011746088000B17389 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				1DD383051746094A00B17389 /* DesignPatternDataproviderViewController.h */,
+				1DD383061746094A00B17389 /* DesignPatternDataproviderViewController.m */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		1DDE88F11738F68600F9BA87 /* Design Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				1DD3830E1746324400B17389 /* DesignPatternsSampleDatasourceViewController.h */,
+				1DD3830F1746324400B17389 /* DesignPatternsSampleDatasourceViewController.m */,
+				1DD383011746088000B17389 /* DataProvider */,
+				1DDE88F21738F68600F9BA87 /* Composer */,
+			);
+			path = "Design Patterns";
+			sourceTree = "<group>";
+		};
+		1DDE88F21738F68600F9BA87 /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE8955173A492B00F9BA87 /* resources */,
+				1DDE88F31738F6B400F9BA87 /* DesignPatternComposerViewController.h */,
+				1DDE88F41738F6B400F9BA87 /* DesignPatternComposerViewController.m */,
+				1DDE88F51738F6B400F9BA87 /* DesignPatternComposerViewController.xib */,
+				1DDE88F81738F6C400F9BA87 /* DesignPatternComposerView.h */,
+				1DDE88F91738F6C400F9BA87 /* DesignPatternComposerView.m */,
+				1DDE894E173A47F500F9BA87 /* Leafs */,
+				1DDE89021739021200F9BA87 /* Compositions */,
+				1DDE88FE1738F88C00F9BA87 /* DesignPatternCompositionProtocol.h */,
+				1DDE88FF1738FEDA00F9BA87 /* DesignPatternComposerComposition.h */,
+				1DDE89001738FEDA00F9BA87 /* DesignPatternComposerComposition.m */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		1DDE89021739021200F9BA87 /* Compositions */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE89031739028400F9BA87 /* DesignPatternComposerCompositionFigureL.h */,
+				1DDE89041739028400F9BA87 /* DesignPatternComposerCompositionFigureL.m */,
+			);
+			path = Compositions;
+			sourceTree = "<group>";
+		};
+		1DDE894E173A47F500F9BA87 /* Leafs */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE894F173A47F800F9BA87 /* DesignPatternComposerLeaf.h */,
+				1DDE8950173A47F800F9BA87 /* DesignPatternComposerLeaf.m */,
+				1DDE8951173A47F800F9BA87 /* DesignPatternComposerLeafSquare.h */,
+				1DDE8952173A47F800F9BA87 /* DesignPatternComposerLeafSquare.m */,
+				1DDE8958173A494E00F9BA87 /* DesignPatternComposerLeafImage.h */,
+				1DDE8959173A494E00F9BA87 /* DesignPatternComposerLeafImage.m */,
+			);
+			path = Leafs;
+			sourceTree = "<group>";
+		};
+		1DDE8955173A492B00F9BA87 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE8956173A492C00F9BA87 /* appcode_icon.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6372971725748200BD3B9E /* KnowledgeTransferProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6372D01725748300BD3B9E /* Build configuration list for PBXNativeTarget "KnowledgeTransferProject" */;
+			buildPhases = (
+				1D6372941725748200BD3B9E /* Sources */,
+				1D6372951725748200BD3B9E /* Frameworks */,
+				1D6372961725748200BD3B9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnowledgeTransferProject;
+			productName = KnowledgeTransferProject;
+			productReference = 1D6372981725748200BD3B9E /* KnowledgeTransferProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D6372BD1725748200BD3B9E /* KnowledgeTransferProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6372D31725748300BD3B9E /* Build configuration list for PBXNativeTarget "KnowledgeTransferProjectTests" */;
+			buildPhases = (
+				1D6372B91725748200BD3B9E /* Sources */,
+				1D6372BA1725748200BD3B9E /* Frameworks */,
+				1D6372BB1725748200BD3B9E /* Resources */,
+				1D6372BC1725748200BD3B9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6372C41725748200BD3B9E /* PBXTargetDependency */,
+			);
+			name = KnowledgeTransferProjectTests;
+			productName = KnowledgeTransferProjectTests;
+			productReference = 1D6372BE1725748200BD3B9E /* KnowledgeTransferProjectTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6372901725748200BD3B9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pavel Yeshchyk";
+			};
+			buildConfigurationList = 1D6372931725748200BD3B9E /* Build configuration list for PBXProject "KnowledgeTransferProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D63728F1725748200BD3B9E;
+			productRefGroup = 1D6372991725748200BD3B9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6372971725748200BD3B9E /* KnowledgeTransferProject */,
+				1D6372BD1725748200BD3B9E /* KnowledgeTransferProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6372961725748200BD3B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6372A61725748200BD3B9E /* InfoPlist.strings in Resources */,
+				1D6372AE1725748200BD3B9E /* Default.png in Resources */,
+				1D6372B01725748200BD3B9E /* Default@2x.png in Resources */,
+				1D6372B21725748200BD3B9E /* Default-568h@2x.png in Resources */,
+				1D6373081725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.xib in Resources */,
+				1D63730E1725984B00BD3B9E /* MainTableViewCell.xib in Resources */,
+				1D46116618AF5782007C19B9 /* UIIOS7NavigationBarViewController.xib in Resources */,
+				1D637316172598D000BD3B9E /* Sample 2. DrawBitmap.png in Resources */,
+				1D63731C17259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.xib in Resources */,
+				1D6373301725AABC00BD3B9E /* SampleDatasourceViewController.xib in Resources */,
+				1D6373511726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.xib in Resources */,
+				1D63735A172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.xib in Resources */,
+				1D6373761726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.xib in Resources */,
+				1D6373831726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.xib in Resources */,
+				1D63738C1726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.xib in Resources */,
+				1D3344E6183A614600997E21 /* UICollectionViewCircleLayoutCell.xib in Resources */,
+				1D6373951726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.xib in Resources */,
+				1D039A4718AF9F0700126279 /* UITransitionsGuestViewController.xib in Resources */,
+				1DACEF1A1728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.xib in Resources */,
+				1D3344C9183A303B00997E21 /* UICollectionViewCustomLayoutCell.xib in Resources */,
+				1D039A4918AF9F0700126279 /* UITransitionsHostViewController.xib in Resources */,
+				1D3344C0183A2D3C00997E21 /* UICollectionViewCustomLayoutViewController.xib in Resources */,
+				1DACEF29172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.xib in Resources */,
+				1D3344D2183A36D600997E21 /* UICollectionViewCircleLayoutViewController.xib in Resources */,
+				1DACEF3717284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.xib in Resources */,
+				1D7D013F1729699E006B6641 /* QuartzSampleSpritesDrawViewController.xib in Resources */,
+				1DDE88F71738F6B400F9BA87 /* DesignPatternComposerViewController.xib in Resources */,
+				1DDE8957173A492C00F9BA87 /* appcode_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6372BB1725748200BD3B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6372CA1725748200BD3B9E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D6372BC1725748200BD3B9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6372941725748200BD3B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD3831517465CB200B17389 /* DesignPatternsSampleDatasourceViewController.m in Sources */,
+				1D6372A81725748200BD3B9E /* main.m in Sources */,
+				1D6372AC1725748200BD3B9E /* AppDelegate.m in Sources */,
+				1D6372EB17257D7C00BD3B9E /* MainViewController.m in Sources */,
+				1D3344E7183A614600997E21 /* UICollectionViewCircleLayout.m in Sources */,
+				1D6373061725922300BD3B9E /* SampleQuartzCoreDrawRectanglesView.m in Sources */,
+				1D6373071725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.m in Sources */,
+				1D63730D1725984B00BD3B9E /* MainTableViewCell.m in Sources */,
+				1D637313172598A100BD3B9E /* SampleDataset.m in Sources */,
+				1D039A2E18AF95CB00126279 /* UITransitionsViewController.m in Sources */,
+				1D63731B17259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.m in Sources */,
+				1D63731F17259ACC00BD3B9E /* SampleQuartzCoreDrawBitmapView.m in Sources */,
+				1D6373251725A51D00BD3B9E /* QuartzSampleDatasourceViewController.m in Sources */,
+				1D039A3E18AF9EA700126279 /* FromRightToLeftTransitioningDelegate.m in Sources */,
+				1D63732E1725AABC00BD3B9E /* SampleDatasourceView.m in Sources */,
+				1D3344BF183A2D3C00997E21 /* UICollectionViewCustomLayoutViewController.m in Sources */,
+				1D63732F1725AABC00BD3B9E /* SampleDatasourceViewController.m in Sources */,
+				1D6373351725AD2200BD3B9E /* UIKitSampleDatasourceViewController.m in Sources */,
+				1D63734F1726764500BD3B9E /* SampleQuartzCoreDrawPathView.m in Sources */,
+				1D6373501726764500BD3B9E /* SampleQuartzCoreDrawPathViewController.m in Sources */,
+				1D6373551726769F00BD3B9E /* QuartzSample3PathViewController.m in Sources */,
+				1D637359172678BA00BD3B9E /* SampleQuartzCoreFillPathViewController.m in Sources */,
+				1D3344CC183A329000997E21 /* UICollectionViewCustomLayout.m in Sources */,
+				1D63735D172678C900BD3B9E /* SampleQuartzCoreFillPathView.m in Sources */,
+				1D63736117267EE200BD3B9E /* SamplesStore.m in Sources */,
+				1D3344E5183A614600997E21 /* UICollectionViewCircleLayoutCell.m in Sources */,
+				1D6373741726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageView.m in Sources */,
+				1D6373751726AF8000BD3B9E /* QuartzSample4TransformationsDrawUIImageViewController.m in Sources */,
+				1D46116518AF5782007C19B9 /* UIIOS7NavigationBarViewController.m in Sources */,
+				1D6373791726AFBE00BD3B9E /* QuartzSample4TransformationsViewController.m in Sources */,
+				1D6373821726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.m in Sources */,
+				1D6373861726DF4200BD3B9E /* QuartzSample4TransformationsTranslationsView.m in Sources */,
+				1D63738B1726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.m in Sources */,
+				1D63738F1726E60D00BD3B9E /* QuartzSample4TransformationsScalingView.m in Sources */,
+				1D6373941726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.m in Sources */,
+				1D6373981726E9C000BD3B9E /* QuartzSample4TransformationsRotationView.m in Sources */,
+				1DACEF191728433D00AA6A6E /* SampleQuartzCoreDrawCoordinatesViewController.m in Sources */,
+				1DACEF1D1728434E00AA6A6E /* SampleQuartzCoreDrawCoordinatesView.m in Sources */,
+				1D3344D5183A36F900997E21 /* UICollectionViewCircleLayoutView.m in Sources */,
+				1D46116118AF56C2007C19B9 /* UIIOS7NavigationBarPresentationViewController.m in Sources */,
+				1D3344C7183A2FDB00997E21 /* UICollectionViewCustomLayoutCell.m in Sources */,
+				1DACEF231728485300AA6A6E /* QuartzSampleRestoreGraphicsState.m in Sources */,
+				1DACEF28172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.m in Sources */,
+				1DACEF2C172849D400AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleView.m in Sources */,
+				1D039A4818AF9F0700126279 /* UITransitionsHostViewController.m in Sources */,
+				1DACEF2E17284AD400AA6A6E /* DrawingSnippets.m in Sources */,
+				1DACEF3617284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.m in Sources */,
+				1D039A4C18AFA04A00126279 /* FromRightToLeftAnimatedTransitioning.m in Sources */,
+				1DACEF3A17284F5F00AA6A6E /* QuartzSample4TransformationsLoopRotationView.m in Sources */,
+				1D7D013A172968FA006B6641 /* QuartzSampleSpritesViewController.m in Sources */,
+				1D7D013E1729699E006B6641 /* QuartzSampleSpritesDrawViewController.m in Sources */,
+				1D7D0142172969B7006B6641 /* QuartzSampleSpritesDrawView.m in Sources */,
+				1D7D014617296A72006B6641 /* Sprite.m in Sources */,
+				1D039A4618AF9F0700126279 /* UITransitionsGuestViewController.m in Sources */,
+				1D7D014D17297B47006B6641 /* TriangleSprite.m in Sources */,
+				1D3344D1183A36D600997E21 /* UICollectionViewCircleLayoutViewController.m in Sources */,
+				1D7D015017297B5A006B6641 /* VectorSprite.m in Sources */,
+				1DBB2464172C3928009690D6 /* SpriteDrawer.m in Sources */,
+				1DBB2466172C3928009690D6 /* NSValue+Sprites.m in Sources */,
+				1D3344C3183A2DCD00997E21 /* UICollectionViewCustomLayoutView.m in Sources */,
+				1DBB246C172C39E1009690D6 /* Space.m in Sources */,
+				1DBB2470172C3A19009690D6 /* SpaceObject.m in Sources */,
+				1DBB2474172C3C69009690D6 /* SpriteLocation.m in Sources */,
+				1DBB2477172C3D14009690D6 /* SpriteSubstance.m in Sources */,
+				1DBB247F172C4A8A009690D6 /* SpaceObjectMediator.m in Sources */,
+				1DDE88F61738F6B400F9BA87 /* DesignPatternComposerViewController.m in Sources */,
+				1DDE88FA1738F6C400F9BA87 /* DesignPatternComposerView.m in Sources */,
+				1DDE89011738FEDA00F9BA87 /* DesignPatternComposerComposition.m in Sources */,
+				1DDE89051739028400F9BA87 /* DesignPatternComposerCompositionFigureL.m in Sources */,
+				1DDE8953173A47F800F9BA87 /* DesignPatternComposerLeaf.m in Sources */,
+				1DDE8954173A47F800F9BA87 /* DesignPatternComposerLeafSquare.m in Sources */,
+				1DDE895A173A494E00F9BA87 /* DesignPatternComposerLeafImage.m in Sources */,
+				1DD383071746094A00B17389 /* DesignPatternDataproviderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6372B91725748200BD3B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6372CD1725748300BD3B9E /* KnowledgeTransferProjectTests.m in Sources */,
+				1DD383101746324400B17389 /* DesignPatternsSampleDatasourceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D6372C41725748200BD3B9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6372971725748200BD3B9E /* KnowledgeTransferProject */;
+			targetProxy = 1D6372C31725748200BD3B9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D6372A41725748200BD3B9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6372A51725748200BD3B9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D6372C81725748200BD3B9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6372C91725748200BD3B9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6372CE1725748300BD3B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6372CF1725748300BD3B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D6372D11725748300BD3B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnowledgeTransferProject/KnowledgeTransferProject-Prefix.pch";
+				INFOPLIST_FILE = "KnowledgeTransferProject/KnowledgeTransferProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D6372D21725748300BD3B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnowledgeTransferProject/KnowledgeTransferProject-Prefix.pch";
+				INFOPLIST_FILE = "KnowledgeTransferProject/KnowledgeTransferProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D6372D41725748300BD3B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KnowledgeTransferProject.app/KnowledgeTransferProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnowledgeTransferProject/KnowledgeTransferProject-Prefix.pch";
+				INFOPLIST_FILE = "KnowledgeTransferProjectTests/KnowledgeTransferProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1D6372D51725748300BD3B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KnowledgeTransferProject.app/KnowledgeTransferProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnowledgeTransferProject/KnowledgeTransferProject-Prefix.pch";
+				INFOPLIST_FILE = "KnowledgeTransferProjectTests/KnowledgeTransferProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6372931725748200BD3B9E /* Build configuration list for PBXProject "KnowledgeTransferProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6372CE1725748300BD3B9E /* Debug */,
+				1D6372CF1725748300BD3B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6372D01725748300BD3B9E /* Build configuration list for PBXNativeTarget "KnowledgeTransferProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6372D11725748300BD3B9E /* Debug */,
+				1D6372D21725748300BD3B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6372D31725748300BD3B9E /* Build configuration list for PBXNativeTarget "KnowledgeTransferProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6372D41725748300BD3B9E /* Debug */,
+				1D6372D51725748300BD3B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D6372901725748200BD3B9E /* Project object */;
+}
