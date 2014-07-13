@@ -31,11 +31,7 @@
 {
     [super viewDidLoad];
     
-
-    
-    UIScrollView *scrollView = self.scrollView;
     NSMutableArray *localConstraints = [[NSMutableArray alloc] init];
-    
 
     UIView *previousView = nil;
     for (int i=0;i<40;i++) {
@@ -61,13 +57,14 @@
     
     NSDictionary *bindingLastView = NSDictionaryOfVariableBindings(previousView);
     [localConstraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[previousView]|" options:0 metrics: 0 views:bindingLastView]];
+
     self.localConstraints = [localConstraints copy];
-    [scrollView addConstraints:self.localConstraints];
+    [self.scrollView addConstraints:self.localConstraints];
     
 }
 
 - (UIView *)createSubviewWithColor:(UIColor *)color {
-    UIView *result = [[UIView alloc] initWithFrame:CGRectMake(0,0,200,200)];
+    UIView *result = [[UIView alloc] init];
     [result setBackgroundColor:color];
     return result;
 }
