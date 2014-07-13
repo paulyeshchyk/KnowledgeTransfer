@@ -6,8 +6,9 @@
 //  Copyright (c) 2013 Pavel Yeshchyk. All rights reserved.
 //
 
+#import "KTViewController.h"
 #import "SampleProtocol.h"
 
-@interface SampleQuartzCoreFillPathViewController : UIViewController <SampleProtocol>
+@interface SampleQuartzCoreFillPathViewController : KTViewController <SampleProtocol>
 
 @end

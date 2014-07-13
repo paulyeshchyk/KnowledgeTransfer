@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Pavel Yeshchyk. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KTViewController.h"
 
-@interface UIIOS7NavigationBarViewController : UIViewController <SampleProtocol>
+@interface UIIOS7NavigationBarViewController : KTViewController <SampleProtocol>
 - (IBAction)onSwitcherValueChanged:(id)sender;
 @end

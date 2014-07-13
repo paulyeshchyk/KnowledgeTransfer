@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Pavel Yeshchyk. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KTViewController.h"
 #import "SampleProtocol.h"
 #import "SamplesDatasourceProtocol.h"
 
-@interface SampleDatasourceViewController : UIViewController <SamplesDatasourceProtocol, SampleProtocol>
+@interface SampleDatasourceViewController : KTViewController <SamplesDatasourceProtocol, SampleProtocol>
 - (void)addSample:(Class<SampleProtocol>)sample forKey:(NSString*)key;
 @end

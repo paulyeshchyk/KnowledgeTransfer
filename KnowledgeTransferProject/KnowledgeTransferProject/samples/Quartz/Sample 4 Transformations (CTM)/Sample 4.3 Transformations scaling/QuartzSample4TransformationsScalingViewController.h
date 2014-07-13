@@ -6,7 +6,8 @@
 //  Copyright (c) 2013 Pavel Yeshchyk. All rights reserved.
 //
 
+#import "KTViewController.h"
 
-@interface QuartzSample4TransformationsScalingViewController : UIViewController <SampleProtocol>
+@interface QuartzSample4TransformationsScalingViewController : KTViewController <SampleProtocol>
 
 @end

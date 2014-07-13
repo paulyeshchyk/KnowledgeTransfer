@@ -12,5 +12,5 @@
 @protocol SampleDatasourceViewProtocol
 @required
 - (void)reloadData;
-@property (nonatomic, weak)id<SamplesDatasourceProtocol>datasource;
+@property (nonatomic, weak) id<SamplesDatasourceProtocol>datasource;
 @end

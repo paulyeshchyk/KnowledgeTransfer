@@ -11,6 +11,7 @@
 #import "UICollectionViewCircleLayoutViewController.h"
 #import "UIIOS7NavigationBarPresentationViewController.h"
 #import "UITransitionsViewController.h"
+#import "UIScrollViewAutolayoutViewController.h"
 
 @interface UIKitSampleDatasourceViewController ()
 
@@ -34,6 +35,7 @@
     [self addSample:[UICollectionViewCircleLayoutViewController class] forKey:@"CollectionViewSample"];
     [self addSample:[UIIOS7NavigationBarPresentationViewController class] forKey:@"iOS7NavigationBar"];
     [self addSample:[UITransitionsViewController class] forKey:@"Transitions"];
+    [self addSample:[UIScrollViewAutolayoutViewController class] forKey:@"Autolayout"];
 }
 
 - (void)didReceiveMemoryWarning

@@ -15,19 +15,21 @@
 
 @implementation UIIOS7NavigationBarPresentationViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     [self addSample:[UIIOS7NavigationBarViewController class] forKey:@"NavigationBar"];
 }
 
-+ (NSString*)sampleName {
+
++ (NSString *)sampleName {
     return @"Presentation";
 }
 
-+ (UIViewController*)newController {
+
++ (UIViewController *)newController {
     return [[UIIOS7NavigationBarPresentationViewController alloc] initWithNibName:@"SampleDatasourceViewController" bundle:[NSBundle mainBundle]];
 }
+
 
 @end

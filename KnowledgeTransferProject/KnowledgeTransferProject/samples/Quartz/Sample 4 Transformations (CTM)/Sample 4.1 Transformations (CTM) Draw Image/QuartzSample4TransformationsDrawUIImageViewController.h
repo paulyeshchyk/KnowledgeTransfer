@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Pavel Yeshchyk. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KTViewController.h"
 
-@interface QuartzSample4TransformationsDrawUIImageViewController : UIViewController
+@interface QuartzSample4TransformationsDrawUIImageViewController : KTViewController
 
 @end

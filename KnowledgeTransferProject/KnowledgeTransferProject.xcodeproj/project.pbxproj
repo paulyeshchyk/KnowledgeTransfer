@@ -118,6 +118,10 @@
 		1DDE8954173A47F800F9BA87 /* DesignPatternComposerLeafSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE8952173A47F800F9BA87 /* DesignPatternComposerLeafSquare.m */; };
 		1DDE8957173A492C00F9BA87 /* appcode_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE8956173A492C00F9BA87 /* appcode_icon.png */; };
 		1DDE895A173A494E00F9BA87 /* DesignPatternComposerLeafImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE8959173A494E00F9BA87 /* DesignPatternComposerLeafImage.m */; };
+		DA61C6BE18F06F0200E1499A /* UIViewController+IOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = DA61C6BD18F06F0200E1499A /* UIViewController+IOS7.m */; };
+		DA61C6C118F06F6A00E1499A /* KTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA61C6C018F06F6A00E1499A /* KTViewController.m */; };
+		DAACD3A01972AC8300022E90 /* UIScrollViewAutolayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAACD39F1972AC8300022E90 /* UIScrollViewAutolayoutViewController.m */; };
+		DAACD3A21972AD0400022E90 /* UIScrollViewAutolayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAACD3A11972AD0400022E90 /* UIScrollViewAutolayoutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -323,6 +327,13 @@
 		1DDE8956173A492C00F9BA87 /* appcode_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appcode_icon.png; sourceTree = "<group>"; };
 		1DDE8958173A494E00F9BA87 /* DesignPatternComposerLeafImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternComposerLeafImage.h; sourceTree = "<group>"; };
 		1DDE8959173A494E00F9BA87 /* DesignPatternComposerLeafImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternComposerLeafImage.m; sourceTree = "<group>"; };
+		DA61C6BC18F06F0200E1499A /* UIViewController+IOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IOS7.h"; sourceTree = "<group>"; };
+		DA61C6BD18F06F0200E1499A /* UIViewController+IOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IOS7.m"; sourceTree = "<group>"; };
+		DA61C6BF18F06F6A00E1499A /* KTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTViewController.h; sourceTree = "<group>"; };
+		DA61C6C018F06F6A00E1499A /* KTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTViewController.m; sourceTree = "<group>"; };
+		DAACD39E1972AC8300022E90 /* UIScrollViewAutolayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollViewAutolayoutViewController.h; sourceTree = "<group>"; };
+		DAACD39F1972AC8300022E90 /* UIScrollViewAutolayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewAutolayoutViewController.m; sourceTree = "<group>"; };
+		DAACD3A11972AD0400022E90 /* UIScrollViewAutolayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIScrollViewAutolayoutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,6 +516,7 @@
 		1D6372A11725748200BD3B9E /* KnowledgeTransferProject */ = {
 			isa = PBXGroup;
 			children = (
+				DA61C6BA18F06EE200E1499A /* categories */,
 				1DACEF1E1728467C00AA6A6E /* support */,
 				1D6372FE1725922200BD3B9E /* samples */,
 				1D6372E417257D7C00BD3B9E /* root */,
@@ -558,6 +570,8 @@
 				1D6373091725984B00BD3B9E /* cells */,
 				1D6372E717257D7C00BD3B9E /* MainViewController.h */,
 				1D6372E817257D7C00BD3B9E /* MainViewController.m */,
+				DA61C6BF18F06F6A00E1499A /* KTViewController.h */,
+				DA61C6C018F06F6A00E1499A /* KTViewController.m */,
 			);
 			path = root;
 			sourceTree = "<group>";
@@ -656,6 +670,7 @@
 		1D6373321725AD0800BD3B9E /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				DAACD39D1972AC0700022E90 /* AutoLayout */,
 				1D039A2B18AF955E00126279 /* Transitions */,
 				1D46115C18AF5622007C19B9 /* iOS7 */,
 				1D3344CD183A36BF00997E21 /* UICollectionViewCircleLayout */,
@@ -997,6 +1012,33 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
+		DA61C6BA18F06EE200E1499A /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				DA61C6BB18F06EF300E1499A /* uiviewcontroller */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		DA61C6BB18F06EF300E1499A /* uiviewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				DA61C6BC18F06F0200E1499A /* UIViewController+IOS7.h */,
+				DA61C6BD18F06F0200E1499A /* UIViewController+IOS7.m */,
+			);
+			path = uiviewcontroller;
+			sourceTree = "<group>";
+		};
+		DAACD39D1972AC0700022E90 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DAACD39E1972AC8300022E90 /* UIScrollViewAutolayoutViewController.h */,
+				DAACD39F1972AC8300022E90 /* UIScrollViewAutolayoutViewController.m */,
+				DAACD3A11972AD0400022E90 /* UIScrollViewAutolayoutViewController.xib */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1093,6 +1135,7 @@
 				1DACEF29172849C200AA6A6E /* SampleQuartzCoreDrawCoordinatesAndRectangleViewController.xib in Resources */,
 				1D3344D2183A36D600997E21 /* UICollectionViewCircleLayoutViewController.xib in Resources */,
 				1DACEF3717284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.xib in Resources */,
+				DAACD3A21972AD0400022E90 /* UIScrollViewAutolayoutViewController.xib in Resources */,
 				1D7D013F1729699E006B6641 /* QuartzSampleSpritesDrawViewController.xib in Resources */,
 				1DDE88F71738F6B400F9BA87 /* DesignPatternComposerViewController.xib in Resources */,
 				1DDE8957173A492C00F9BA87 /* appcode_icon.png in Resources */,
@@ -1139,6 +1182,7 @@
 				1D6373071725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.m in Sources */,
 				1D63730D1725984B00BD3B9E /* MainTableViewCell.m in Sources */,
 				1D637313172598A100BD3B9E /* SampleDataset.m in Sources */,
+				DA61C6C118F06F6A00E1499A /* KTViewController.m in Sources */,
 				1D039A2E18AF95CB00126279 /* UITransitionsViewController.m in Sources */,
 				1D63731B17259AB800BD3B9E /* SampleQuartzCoreDrawBitmapViewController.m in Sources */,
 				1D63731F17259ACC00BD3B9E /* SampleQuartzCoreDrawBitmapView.m in Sources */,
@@ -1162,6 +1206,7 @@
 				1D6373791726AFBE00BD3B9E /* QuartzSample4TransformationsViewController.m in Sources */,
 				1D6373821726DF2A00BD3B9E /* QuartzSample4TransformationsTranslationsViewController.m in Sources */,
 				1D6373861726DF4200BD3B9E /* QuartzSample4TransformationsTranslationsView.m in Sources */,
+				DA61C6BE18F06F0200E1499A /* UIViewController+IOS7.m in Sources */,
 				1D63738B1726E5F800BD3B9E /* QuartzSample4TransformationsScalingViewController.m in Sources */,
 				1D63738F1726E60D00BD3B9E /* QuartzSample4TransformationsScalingView.m in Sources */,
 				1D6373941726E9AD00BD3B9E /* QuartzSample4TransformationsRotationViewController.m in Sources */,
@@ -1179,6 +1224,7 @@
 				1DACEF3617284F4C00AA6A6E /* QuartzSample4TransformationsLoopRotationViewController.m in Sources */,
 				1D039A4C18AFA04A00126279 /* FromRightToLeftAnimatedTransitioning.m in Sources */,
 				1DACEF3A17284F5F00AA6A6E /* QuartzSample4TransformationsLoopRotationView.m in Sources */,
+				DAACD3A01972AC8300022E90 /* UIScrollViewAutolayoutViewController.m in Sources */,
 				1D7D013A172968FA006B6641 /* QuartzSampleSpritesViewController.m in Sources */,
 				1D7D013E1729699E006B6641 /* QuartzSampleSpritesDrawViewController.m in Sources */,
 				1D7D0142172969B7006B6641 /* QuartzSampleSpritesDrawView.m in Sources */,

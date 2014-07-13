@@ -6,8 +6,9 @@
 //  Copyright (c) 2013 Pavel Yeshchyk. All rights reserved.
 //
 
+#import "KTViewController.h"
 #import "SampleDatasourceViewController.h"
 
-@interface SampleQuartzCoreDrawCoordinatesViewController : UIViewController <SampleProtocol>
+@interface SampleQuartzCoreDrawCoordinatesViewController : KTViewController <SampleProtocol>
 
 @end
