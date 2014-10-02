@@ -10,6 +10,7 @@
 
 @interface UIIOS7NavigationBarViewController ()
 @property (nonatomic, assign)UIRectEdge edge;
+@property (nonatomic, weak)IBOutlet UISlider *slider;
 @end
 
 @implementation UIIOS7NavigationBarViewController
@@ -20,7 +21,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.edge = UIRectEdgeNone;
+}
+
+- (IBAction)sliderTapped:(UIGestureRecognizer *)g {
+    UISlider* s = (UISlider*)g.view;
+    CGPoint locationInView = [g locationInView: s];
+    CGFloat percentage = locationInView.x / s.bounds.size.width;
+    CGFloat delta = percentage * (s.maximumValue - s.minimumValue);
+    CGFloat newValue = s.minimumValue + delta;
+    [s setValue:newValue animated:YES];
 }
 
 +(UIViewController*)newController {
@@ -41,5 +52,6 @@
     _edge = edge;
     [self setEdgesForExtendedLayout:self.edge];
 }
+
 
 @end

@@ -109,6 +109,7 @@
 		1DD383071746094A00B17389 /* DesignPatternDataproviderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD383061746094A00B17389 /* DesignPatternDataproviderViewController.m */; };
 		1DD383101746324400B17389 /* DesignPatternsSampleDatasourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD3830F1746324400B17389 /* DesignPatternsSampleDatasourceViewController.m */; };
 		1DD3831517465CB200B17389 /* DesignPatternsSampleDatasourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD3830F1746324400B17389 /* DesignPatternsSampleDatasourceViewController.m */; };
+		1DD4370319DD83F800692C6E /* NSBundle+Localizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4370219DD83F800692C6E /* NSBundle+Localizations.m */; };
 		1DDE88F61738F6B400F9BA87 /* DesignPatternComposerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE88F41738F6B400F9BA87 /* DesignPatternComposerViewController.m */; };
 		1DDE88F71738F6B400F9BA87 /* DesignPatternComposerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE88F51738F6B400F9BA87 /* DesignPatternComposerViewController.xib */; };
 		1DDE88FA1738F6C400F9BA87 /* DesignPatternComposerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE88F91738F6C400F9BA87 /* DesignPatternComposerView.m */; };
@@ -310,6 +311,8 @@
 		1DD383061746094A00B17389 /* DesignPatternDataproviderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternDataproviderViewController.m; sourceTree = "<group>"; };
 		1DD3830E1746324400B17389 /* DesignPatternsSampleDatasourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternsSampleDatasourceViewController.h; sourceTree = "<group>"; };
 		1DD3830F1746324400B17389 /* DesignPatternsSampleDatasourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsSampleDatasourceViewController.m; sourceTree = "<group>"; };
+		1DD4370119DD83F800692C6E /* NSBundle+Localizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Localizations.h"; sourceTree = "<group>"; };
+		1DD4370219DD83F800692C6E /* NSBundle+Localizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Localizations.m"; sourceTree = "<group>"; };
 		1DDE88F31738F6B400F9BA87 /* DesignPatternComposerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternComposerViewController.h; sourceTree = "<group>"; };
 		1DDE88F41738F6B400F9BA87 /* DesignPatternComposerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternComposerViewController.m; sourceTree = "<group>"; };
 		1DDE88F51738F6B400F9BA87 /* DesignPatternComposerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignPatternComposerViewController.xib; sourceTree = "<group>"; };
@@ -1016,6 +1019,8 @@
 			isa = PBXGroup;
 			children = (
 				DA61C6BB18F06EF300E1499A /* uiviewcontroller */,
+				1DD4370119DD83F800692C6E /* NSBundle+Localizations.h */,
+				1DD4370219DD83F800692C6E /* NSBundle+Localizations.m */,
 			);
 			path = categories;
 			sourceTree = "<group>";
@@ -1177,6 +1182,7 @@
 				1D6372A81725748200BD3B9E /* main.m in Sources */,
 				1D6372AC1725748200BD3B9E /* AppDelegate.m in Sources */,
 				1D6372EB17257D7C00BD3B9E /* MainViewController.m in Sources */,
+				1DD4370319DD83F800692C6E /* NSBundle+Localizations.m in Sources */,
 				1D3344E7183A614600997E21 /* UICollectionViewCircleLayout.m in Sources */,
 				1D6373061725922300BD3B9E /* SampleQuartzCoreDrawRectanglesView.m in Sources */,
 				1D6373071725922300BD3B9E /* SampleQuartzCoreDrawRectanglesViewController.m in Sources */,
